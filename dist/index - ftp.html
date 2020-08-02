@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>movepro</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="trade-in">
+			<h2 class="trade-in_title">Выкуп или покупка/продажа техники Gorpo, DJI, стедикамов по программе Trade-in</h2>
+			<p class="trade-in_text">Воспользуйтесь нашей программой Trade-in и получите совершенно новый гаджет в обмен на Ваш старый с небольшой доплатой. А если необходимости в новом девайсе у Вас нет, мы просто выкупим у Вас технику. Даже если техника не исправна, выкупим на запчасти.</p>
+			<h2 class="trade-in_model">Модель:</h2>
+			<form id="model-select" class="model-select">
+				<input id="model-1" class="trade-in_radio" type="radio" name="model" value="1" checked><label class="trade-in_label" for="model-1">GoPro</label>
+				<input id="model-2" class="trade-in_radio" type="radio" name="model" value="2"><label class="trade-in_label" for="model-2">DJI</label>
+				<input id="model-3" class="trade-in_radio" type="radio" name="model" value="3"><label class="trade-in_label" for="model-3">Стедикамы</label>
+			</form>
+			<form id="form-gopro" action="" class="form-gopro">
+				<input class="trade-in_radio" type="radio" id="gopro-1" name="gopro" data-img-before="/catalog/view/theme/movepro/img/model-1-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-1-after.jpg" checked><label class="trade-in_label" for="gopro-1">hero 3/3+</label>
+				<input class="trade-in_radio" type="radio" id="gopro-2" name="gopro" data-img-before="/catalog/view/theme/movepro/img/model-2-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-2-after.jpg"><label class="trade-in_label" for="gopro-2">hero 4 session</label>
+				<input class="trade-in_radio" type="radio" id="gopro-3" name="gopro" data-img-before="/catalog/view/theme/movepro/img/model-3-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-3-after.jpg"><label class="trade-in_label" for="gopro-3">hero 5 session</label>
+				<input class="trade-in_radio" type="radio" id="gopro-4" name="gopro"><label class="trade-in_label" for="gopro-4">hero 4 silver</label>
+				<input class="trade-in_radio" type="radio" id="gopro-5" name="gopro"><label class="trade-in_label" for="gopro-5">hero 4 black</label>
+				<input class="trade-in_radio" type="radio" id="gopro-6" name="gopro"><label class="trade-in_label" for="gopro-6">hero 5 black</label>
+				<input class="trade-in_radio" type="radio" id="gopro-7" name="gopro"><label class="trade-in_label" for="gopro-7">hero 6 black</label>
+			</form>
+			<form id="form-dgi" action="" class="form-dgi form-hidden">
+				<input class="trade-in_radio" type="radio" id="dgi-1" name="dgi" data-img-before="/catalog/view/theme/movepro/img/model-1-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-1-after.jpg" checked><label class="trade-in_label" for="dgi-1">spark</label>
+				<input class="trade-in_radio" type="radio" id="dgi-2" name="dgi" data-img-before="/catalog/view/theme/movepro/img/model-2-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-2-after.jpg"><label class="trade-in_label" for="dgi-2">phantom 3 se</label>
+				<input class="trade-in_radio" type="radio" id="dgi-3" name="dgi" data-img-before="/catalog/view/theme/movepro/img/model-3-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-3-after.jpg"><label class="trade-in_label" for="dgi-3">phantom 4</label>
+				<input class="trade-in_radio" type="radio" id="dgi-4" name="dgi"><label class="trade-in_label" for="dgi-4">phantom 4 pro</label>
+				<input class="trade-in_radio" type="radio" id="dgi-5" name="dgi"><label class="trade-in_label" for="dgi-5">phantom 4 pro plus</label>
+				<input class="trade-in_radio" type="radio" id="dgi-6" name="dgi"><label class="trade-in_label" for="dgi-6">mavic pro</label>
+				<input class="trade-in_radio" type="radio" id="dgi-7" name="dgi"><label class="trade-in_label" for="dgi-7">mavic pro platinum</label>
+				<input class="trade-in_radio" type="radio" id="dgi-8" name="dgi"><label class="trade-in_label" for="dgi-8">mavic air</label>
+				<input class="trade-in_radio" type="radio" id="dgi-9" name="dgi"><label class="trade-in_label" for="dgi-9">Другое</label>
+			</form>
+			<form id="form-stedi" action="" class="form-stedi form-hidden">
+				<input class="trade-in_radio" type="radio" id="stedi-1" name="stedi" data-img-before="/catalog/view/theme/movepro/img/model-1-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-1-after.jpg" checked><label class="trade-in_label" for="stedi-1">Gopro Karma Grip</label>
+				<input class="trade-in_radio" type="radio" id="stedi-2" name="stedi" data-img-before="/catalog/view/theme/movepro/img/model-2-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-2-after.jpg"><label class="trade-in_label" for="stedi-2">Removu S1</label>
+				<input class="trade-in_radio" type="radio" id="stedi-3" name="stedi" data-img-before="/catalog/view/theme/movepro/img/model-3-before.jpg" data-img-after="/catalog/view/theme/movepro/img/model-3-after.jpg"><label class="trade-in_label" for="stedi-3">Dji Osmo mobile</label>
+				<input class="trade-in_radio" type="radio" id="stedi-4" name="stedi"><label class="trade-in_label" for="stedi-4">Dji Osmo x3</label>
+				<input class="trade-in_radio" type="radio" id="stedi-5" name="stedi"><label class="trade-in_label" for="stedi-5">Dji Osmo x5</label>
+				<input class="trade-in_radio" type="radio" id="stedi-6" name="stedi"><label class="trade-in_label" for="stedi-6">Zhiyun smooth Q</label>
+				<input class="trade-in_radio" type="radio" id="stedi-7" name="stedi"><label class="trade-in_label" for="stedi-7">Zhiyun smooth 3</label>
+				<input class="trade-in_radio" type="radio" id="stedi-8" name="stedi"><label class="trade-in_label" for="stedi-8">Zhiyun smooth C</label>
+				<input class="trade-in_radio" type="radio" id="stedi-9" name="stedi"><label class="trade-in_label" for="stedi-9">Zhiyun smooth 2</label>
+				<input class="trade-in_radio" type="radio" id="stedi-10" name="stedi"><label class="trade-in_label" for="stedi-10">Zhiyun Crane</label>
+				<input class="trade-in_radio" type="radio" id="stedi-11" name="stedi"><label class="trade-in_label" for="stedi-11">Zhiyun Crane 2</label>
+				<input class="trade-in_radio" type="radio" id="stedi-12" name="stedi"><label class="trade-in_label" for="stedi-12">Zhiyun Crane M</label>
+				<input class="trade-in_radio" type="radio" id="stedi-13" name="stedi"><label class="trade-in_label" for="stedi-13">Zhiyun Z1</label>
+				<input class="trade-in_radio" type="radio" id="stedi-14" name="stedi"><label class="trade-in_label" for="stedi-14">Zhiyun Rider M</label>
+				<input class="trade-in_radio" type="radio" id="stedi-15" name="stedi"><label class="trade-in_label" for="stedi-15">Feiyutech G5</label>
+				<input class="trade-in_radio" type="radio" id="stedi-16" name="stedi"><label class="trade-in_label" for="stedi-16">Feiyutech wg 2</label>
+				<input class="trade-in_radio" type="radio" id="stedi-17" name="stedi"><label class="trade-in_label" for="stedi-17">Feiyutech SPG</label>
+				<input class="trade-in_radio" type="radio" id="stedi-18" name="stedi"><label class="trade-in_label" for="stedi-18">Feiyutech SPG plus</label>
+				<input class="trade-in_radio" type="radio" id="stedi-19" name="stedi"><label class="trade-in_label" for="stedi-19">Другое</label>
+			</form>
+			<div class="model-items">
+				<div id="model-item-after" class="model-item model-item--after"><img class="model-item_img" src="/catalog/view/theme/movepro/img/model-1-before.jpg" alt="model"></div>
+				<div id="model-item-before" class="model-item model-item--before"><img class="model-item_img" src="/catalog/view/theme/movepro/img/model-1-after.jpg" alt="model"></div>
+			</div>
+			<form class="want">
+				<span>Хочу - </span>
+				<input type="radio" class="trade-in_radio" id="want-1" name="want" checked><label for="want-1" class="trade-in_label">продать</label>
+				<input type="radio" class="trade-in_radio" id="want-2" name="want"><label for="want-2" class="trade-in_label">обменять</label>
+				<input type="radio" class="trade-in_radio" id="want-3" name="want"><label for="want-3" class="trade-in_label">продать на запчасти</label>
+			</form>
+		</div>
+		<div class="appearance">
+			<h2 class="appearance_h2">Внешний вид устройства</h2>
+			<form class="appearance_items">
+				<input type="radio" class="appearance_radio" id="appearance-1" name="appearance" checked><label for="appearance-1" class="appearance_label appearance_label--1"><span>Как новый</span> ( В идеальном состоянии,без следов износа)</label>
+				<input type="radio" class="appearance_radio" id="appearance-2" name="appearance"><label for="appearance-2" class="appearance_label appearance_label--2"><span>Хорошее</span> (Минимальные поверхности царапины /потертости)</label>
+				<input type="radio" class="appearance_radio" id="appearance-3" name="appearance"><label for="appearance-3" class="appearance_label appearance_label--3"><span>Среднее</span> (Заметные царапины или сколы на корпусе)</label>
+				<input type="radio" class="appearance_radio" id="appearance-4" name="appearance"><label for="appearance-4" class="appearance_label appearance_label--4"><span>Плохое</span> (Большое количество царапин сильные сколы на корпусе и дисплее)</label>
+			</form>
+		</div>
+		<div class="kit">
+			<h2 class="kit_h2">Комплект</h2>
+			<form class="kit_items">
+				<input class="trade-in_radio" type="radio" id="kit-1" name="kit" checked><label class="trade-in_label" for="kit-1">Полный с коробкой</label>
+				<input class="trade-in_radio" type="radio" id="kit-2" name="kit"><label class="trade-in_label" for="kit-2">Частичный с коробкой</label>
+				<input class="trade-in_radio" type="radio" id="kit-3" name="kit"><label class="trade-in_label" for="kit-3">Частичный без коробки</label>
+				<input class="trade-in_radio" type="radio" id="kit-4" name="kit"><label class="trade-in_label" for="kit-4">Отсутствует</label>
+			</form>
+		</div>
+		<div class="option">
+			<h2 class="option_title">Дополнительно в комплекте:</h2>
+			<p class="option_text">например 2 аккумулятора и т.д., если нет, ничего не пишите!</p>
+			<div class="option_enter-container"><textarea class="option_enter"></textarea></div>
+		</div>
+		<div class="photo">
+			<h2 class="photo_title">Загрузить фотографии Вашего устройства (3-5 шт)</h2>
+			<form class="photo_form" action="">
+				<div class="photo_line">
+					<label class="photo_label" for="file-1">Выберите файл</label><input class="photo_input" id="file-1" type="file">
+					<span class="photo_span">Файл не выбран</span>
+				</div>
+				<div class="photo_line">
+					<label class="photo_label" for="file-2">Выберите файл</label><input class="photo_input" id="file-2" type="file">
+					<span class="photo_span">Файл не выбран</span>
+				</div>
+				<div class="photo_line">
+					<label class="photo_label" for="file-3">Выберите файл</label><input class="photo_input" id="file-3" type="file">
+					<span class="photo_span">Файл не выбран</span>
+				</div>
+				<input class="photo_check" id="photo_check" type="checkbox"><label for="photo_check" class="photo_check-label"></label><label for="photo_check" class="photo_check-span">Без фото</label>
+			</form>
+		</div>
+		<div class="data">
+			<h2 class="data_title">Личные данные:</h2>
+			<form class="data_form" action="">
+				<div class="data_line"><span class="data_span"><span class="data_star">&lowast;</span>Имя</span><input class="data_input" type="text"></div>
+				<div class="data_line"><span class="data_span"><span class="data_star">&lowast;</span>Телефон</span><input class="data_input" type="tel"></div>
+				<div class="data_line"><span class="data_span"><span class="data_star">&lowast;</span>E-mail</span><input class="data_input" type="email"></div>
+				<div class="data_line"><span class="data_span"><span class="data_star">&lowast;</span>Город</span><input class="data_input" type="text"></div>
+				<textarea class="data_textar" placeholder="Комментарий"></textarea>
+				<button class="data_btn">Отправить заявку</button>
+			</form>
+		</div>
+	</div>
+
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>

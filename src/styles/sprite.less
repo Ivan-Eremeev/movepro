@@ -1,0 +1,220 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@icon-after-arrow-md-name: 'icon-after-arrow-md';
+@icon-after-arrow-md-x: 0px;
+@icon-after-arrow-md-y: 0px;
+@icon-after-arrow-md-offset-x: 0px;
+@icon-after-arrow-md-offset-y: 0px;
+@icon-after-arrow-md-width: 130px;
+@icon-after-arrow-md-height: 98px;
+@icon-after-arrow-md-total-width: 462px;
+@icon-after-arrow-md-total-height: 294px;
+@icon-after-arrow-md-image: '../img/sprite.png';
+@icon-after-arrow-md: 0px 0px 0px 0px 130px 98px 462px 294px '../img/sprite.png' 'icon-after-arrow-md';
+@icon-after-arrow-name: 'icon-after-arrow';
+@icon-after-arrow-x: 0px;
+@icon-after-arrow-y: 196px;
+@icon-after-arrow-offset-x: 0px;
+@icon-after-arrow-offset-y: -196px;
+@icon-after-arrow-width: 101px;
+@icon-after-arrow-height: 98px;
+@icon-after-arrow-total-width: 462px;
+@icon-after-arrow-total-height: 294px;
+@icon-after-arrow-image: '../img/sprite.png';
+@icon-after-arrow: 0px 196px 0px -196px 101px 98px 462px 294px '../img/sprite.png' 'icon-after-arrow';
+@icon-before-arrow-md-name: 'icon-before-arrow-md';
+@icon-before-arrow-md-x: 130px;
+@icon-before-arrow-md-y: 0px;
+@icon-before-arrow-md-offset-x: -130px;
+@icon-before-arrow-md-offset-y: 0px;
+@icon-before-arrow-md-width: 130px;
+@icon-before-arrow-md-height: 98px;
+@icon-before-arrow-md-total-width: 462px;
+@icon-before-arrow-md-total-height: 294px;
+@icon-before-arrow-md-image: '../img/sprite.png';
+@icon-before-arrow-md: 130px 0px -130px 0px 130px 98px 462px 294px '../img/sprite.png' 'icon-before-arrow-md';
+@icon-before-arrow-name: 'icon-before-arrow';
+@icon-before-arrow-x: 101px;
+@icon-before-arrow-y: 98px;
+@icon-before-arrow-offset-x: -101px;
+@icon-before-arrow-offset-y: -98px;
+@icon-before-arrow-width: 101px;
+@icon-before-arrow-height: 98px;
+@icon-before-arrow-total-width: 462px;
+@icon-before-arrow-total-height: 294px;
+@icon-before-arrow-image: '../img/sprite.png';
+@icon-before-arrow: 101px 98px -101px -98px 101px 98px 462px 294px '../img/sprite.png' 'icon-before-arrow';
+@icon-smile-1-active-name: 'icon-smile-1-active';
+@icon-smile-1-active-x: 260px;
+@icon-smile-1-active-y: 0px;
+@icon-smile-1-active-offset-x: -260px;
+@icon-smile-1-active-offset-y: 0px;
+@icon-smile-1-active-width: 101px;
+@icon-smile-1-active-height: 98px;
+@icon-smile-1-active-total-width: 462px;
+@icon-smile-1-active-total-height: 294px;
+@icon-smile-1-active-image: '../img/sprite.png';
+@icon-smile-1-active: 260px 0px -260px 0px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-1-active';
+@icon-smile-1-name: 'icon-smile-1';
+@icon-smile-1-x: 260px;
+@icon-smile-1-y: 98px;
+@icon-smile-1-offset-x: -260px;
+@icon-smile-1-offset-y: -98px;
+@icon-smile-1-width: 101px;
+@icon-smile-1-height: 98px;
+@icon-smile-1-total-width: 462px;
+@icon-smile-1-total-height: 294px;
+@icon-smile-1-image: '../img/sprite.png';
+@icon-smile-1: 260px 98px -260px -98px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-1';
+@icon-smile-2-active-name: 'icon-smile-2-active';
+@icon-smile-2-active-x: 361px;
+@icon-smile-2-active-y: 196px;
+@icon-smile-2-active-offset-x: -361px;
+@icon-smile-2-active-offset-y: -196px;
+@icon-smile-2-active-width: 101px;
+@icon-smile-2-active-height: 98px;
+@icon-smile-2-active-total-width: 462px;
+@icon-smile-2-active-total-height: 294px;
+@icon-smile-2-active-image: '../img/sprite.png';
+@icon-smile-2-active: 361px 196px -361px -196px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-2-active';
+@icon-smile-2-name: 'icon-smile-2';
+@icon-smile-2-x: 101px;
+@icon-smile-2-y: 196px;
+@icon-smile-2-offset-x: -101px;
+@icon-smile-2-offset-y: -196px;
+@icon-smile-2-width: 101px;
+@icon-smile-2-height: 98px;
+@icon-smile-2-total-width: 462px;
+@icon-smile-2-total-height: 294px;
+@icon-smile-2-image: '../img/sprite.png';
+@icon-smile-2: 101px 196px -101px -196px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-2';
+@icon-smile-3-active-name: 'icon-smile-3-active';
+@icon-smile-3-active-x: 202px;
+@icon-smile-3-active-y: 196px;
+@icon-smile-3-active-offset-x: -202px;
+@icon-smile-3-active-offset-y: -196px;
+@icon-smile-3-active-width: 101px;
+@icon-smile-3-active-height: 98px;
+@icon-smile-3-active-total-width: 462px;
+@icon-smile-3-active-total-height: 294px;
+@icon-smile-3-active-image: '../img/sprite.png';
+@icon-smile-3-active: 202px 196px -202px -196px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-3-active';
+@icon-smile-3-name: 'icon-smile-3';
+@icon-smile-3-x: 361px;
+@icon-smile-3-y: 0px;
+@icon-smile-3-offset-x: -361px;
+@icon-smile-3-offset-y: 0px;
+@icon-smile-3-width: 101px;
+@icon-smile-3-height: 98px;
+@icon-smile-3-total-width: 462px;
+@icon-smile-3-total-height: 294px;
+@icon-smile-3-image: '../img/sprite.png';
+@icon-smile-3: 361px 0px -361px 0px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-3';
+@icon-smile-4-active-name: 'icon-smile-4-active';
+@icon-smile-4-active-x: 361px;
+@icon-smile-4-active-y: 98px;
+@icon-smile-4-active-offset-x: -361px;
+@icon-smile-4-active-offset-y: -98px;
+@icon-smile-4-active-width: 101px;
+@icon-smile-4-active-height: 98px;
+@icon-smile-4-active-total-width: 462px;
+@icon-smile-4-active-total-height: 294px;
+@icon-smile-4-active-image: '../img/sprite.png';
+@icon-smile-4-active: 361px 98px -361px -98px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-4-active';
+@icon-smile-4-name: 'icon-smile-4';
+@icon-smile-4-x: 0px;
+@icon-smile-4-y: 98px;
+@icon-smile-4-offset-x: 0px;
+@icon-smile-4-offset-y: -98px;
+@icon-smile-4-width: 101px;
+@icon-smile-4-height: 98px;
+@icon-smile-4-total-width: 462px;
+@icon-smile-4-total-height: 294px;
+@icon-smile-4-image: '../img/sprite.png';
+@icon-smile-4: 0px 98px 0px -98px 101px 98px 462px 294px '../img/sprite.png' 'icon-smile-4';
+@spritesheet-width: 462px;
+@spritesheet-height: 294px;
+@spritesheet-image: '../img/sprite.png';
+@spritesheet-sprites: @icon-after-arrow-md @icon-after-arrow @icon-before-arrow-md @icon-before-arrow @icon-smile-1-active @icon-smile-1 @icon-smile-2-active @icon-smile-2 @icon-smile-3-active @icon-smile-3 @icon-smile-4-active @icon-smile-4;
+@spritesheet: 462px 294px '../img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
